@@ -94,10 +94,10 @@ class Main {
     String hdirection;
     double value;
     if (chi - hi() > 0){ //if positive
-      hdirection = "below";
+      hdirection = "above";
       value = Math.abs(chi - hi());
     } else if (chi - hi() < 0) { //if positive
-      hdirection = "above";
+      hdirection = "below";
       value = Math.abs(hi() - chi);
     } else { //if same
       hdirection = "off of";
