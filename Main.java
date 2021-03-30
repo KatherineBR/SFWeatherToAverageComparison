@@ -5,7 +5,6 @@ import java.nio.file.*;
 import java.lang.String.*;
 import java.text.DecimalFormat;
 
-
 class Main {
 
   public static void main(String[] args) {
